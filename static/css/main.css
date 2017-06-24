@@ -839,35 +839,46 @@
     color: #fff;
 }
 
-.at1_lf {
-    text-align: right;
+.at1_tl p {
+    padding-top: 10px;
     color: #505050;
-    margin-top: 10%;
+    line-height: 180%;
 }
 
-.at1_rt img {
-    width: 100%;
-    vertical-align: middle;
+.at1_b {
+    background: url("../images/about3/about3_01.jpg") no-repeat center top;
+    background-size: contain;
+}
+
+.at1_lf {
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+.at1_lf .at1_lf_txt {
+    text-align: right;
+    color: #505050;
+    padding-right: 85px;
+    line-height: 180%;
 }
 
 .at1_rt {
     position: relative;
     font-size: 40px;
     color: #fff;
-}
-
-.at1_rt_tl span {
-    color: #323232;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .at1_rt_tl {
     position: absolute;
-    left: 50px;
+    left: -125px;
     top: 50px;
+    font-family: "MicrosoftYaHeiLight";
 }
 
-.at1 {
-    margin-bottom: 70px;
+.at1_rt_tl span {
+    color: #323232;
 }
 
 .span_black {
@@ -886,19 +897,25 @@
 }
 
 .at2_text {
+    width: 80%;
+    margin: 0 auto 20px;
     color: #505050;
     text-align: center;
     line-height: 22px;
-    margin-bottom: 20px;
 }
-
+.at2 .imgbox{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
 .at2 img {
     width: 100%;
     vertical-align: middle;
 }
 
 .at2 {
-    margin-bottom: 50px;
+    width: 77%;
+    margin: 0 auto 90px;
 }
 
 .at3 {
@@ -916,7 +933,7 @@
     position: absolute;
     width: 100%;
     left: 0px;
-    top: 5%;
+    top: -22px;
     text-align: center;
     color: #505050;
 }
@@ -938,7 +955,7 @@
 }
 
 .at32_ul li {
-    background: url(../images/jia_03.png) no-repeat left center;
+    background: url(../images/jia_03.jpg) no-repeat left center;
     line-height: 30px;
     padding-left: 40px;
     margin-bottom: 20px;
@@ -1112,18 +1129,20 @@
         top: 70%;
         left: 0px;
     }
+    .at1_b {
+        background-size: 100% 100%;
+    }
     .at1_lf {
-        margin-top: 0px;
+        padding: 80px 0 50px;
     }
-    .at1_rt {
-        margin-top: 20px;
-    }
-    .at1_rt {
-        font-size: 18px;
+    .at1_lf .at1_lf_txt {
+        padding: 0 0 0 20px;
+        text-align: left;
     }
     .at1_rt_tl {
-        left: 25px;
-        top: 25px;
+        font-size: 25px;
+        top: -230px;
+        left: 50%;
     }
     .at1 {
         margin-bottom: 35px;
