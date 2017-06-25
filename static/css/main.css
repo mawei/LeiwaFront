@@ -51,7 +51,8 @@
     background: url(../images/indextlbg_02.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
-    padding: 40px 0px;
+    padding:0px 0px 40PX;
+   
 }
 
 .index_three_tl_eng {
@@ -2089,7 +2090,8 @@
 .pro1_two {
     background: url(../images/pro_04.jpg) no-repeat top center;
     background-size: cover;
-    margin-top: -40px;
+    /*margin-top: -40px;*/
+      margin-top: 0px;
     position: relative;
     z-index: 1;
     padding-top: 40px;
