@@ -903,11 +903,13 @@
     text-align: center;
     line-height: 22px;
 }
-.at2 .imgbox{
+
+.at2 .imgbox {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
+
 .at2 img {
     width: 100%;
     vertical-align: middle;
@@ -1584,6 +1586,7 @@
 .my_ban_main {
     width: 60%;
     margin: 0px auto;
+    font-family: "MicrosoftYaHeiLight", "黑体";
 }
 
 .mystyle_tl {
@@ -1606,7 +1609,7 @@
 .mystyle_ul .mystyle_zi {
     text-align: center;
     padding: 0px 5%;
-    padding-top: 10%;
+    padding-top: 9%;
     line-height: 25px;
     color: #505050;
 }
