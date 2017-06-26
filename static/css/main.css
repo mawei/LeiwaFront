@@ -734,15 +734,19 @@
 .about_ul_rt_big {
     font-size: 18px;
     color: #505050;
+    line-height: 180%;
 }
 
 .about_ul_rttl_big {
+    font-family: "fontDidot";
     color: #d7001d;
     font-size: 60px;
+    line-height: 1;
 }
 
 .about_ul_rt {
     margin-top: 12%;
+    line-height: 180%;
 }
 
 .aboutt_lf {
@@ -756,6 +760,7 @@
 .about_ul_rttl_big2 {
     font-size: 40px;
     color: #505050;
+    line-height: 1;
 }
 
 .about_ul_li2 .aboutt_rt {
