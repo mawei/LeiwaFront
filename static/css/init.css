@@ -148,13 +148,13 @@ h1 {
 }
 
 @font-face {
-    font-family: 'fontNameRegular';
+    font-family: 'fontDidot';
     src: url('../fronts/teshu.ttf');
-    src: local('fontNameRegular'), local('fontName'), url('../fronts/teshu.ttf') format('ttf');
+    src: local('fontDidot'), local('fontName'), url('../fronts/teshu.ttf') format('ttf');
 }
 
 @font-face {
-    font-family: 'fontNameRegular1';
+    font-family: 'fontDidot';
     src: url('../fronts/teshu2.ttf');
-    src: local('fontNameRegular1'), local('fontName'), url('../fronts/teshu.ttf') format('ttf');
+    src: local('fontDidot'), local('fontName'), url('../fronts/teshu.ttf') format('ttf');
 }
