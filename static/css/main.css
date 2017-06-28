@@ -10,6 +10,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DINCondensedFont';
+    src: url('../fonts/teshu.eot');
+    src: local('☺'), url('../fonts/teshu.eot?#iefix') format('embedded-opentype'), 
+                     url('../fonts/teshu.woff') format('woff'),
+                     url('../fonts/teshu.ttf') format('truetype'), 
+                     url('f../fonts/teshu.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .index_banner_img {
     width: 100%;
     vertical-align: middle;
@@ -118,19 +129,26 @@
 }
 
 .index_three_tl {
-    background: url(../images/indextlbg_02.jpg) no-repeat center;
-    background-size: cover;
-    text-align: center;
-    padding: 0px 0px 40PX;
+    position: relative;
 }
 
 .index_three_tl_eng {
+    position: absolute;
+    top:14%;
+    left:0;
+    width:100%;
+    text-align: center;
     color: #ffffff;
     font-size: 80px;
     font-family: fontDidot;
 }
 
 .index_three_tl_china {
+    position: absolute;
+    bottom:35%;
+    left:0;
+    width:100%;
+    text-align: center;
     font-size: 20px;
     color: #cccccc;
 }
@@ -154,42 +172,54 @@
 }
 
 .index_three_fu {
+    width: 25%;
     position: absolute;
     z-index: 100;
     font-size: 18px;
+
 }
 
 .index_three_fu1 {
-    color: #c0a487;
-    position: absolute;
-    left: 30px;
-    top: 28%;
+    color: #d7a14d;
+    right: 25%;
+    margin-right: 25%;
+    bottom: 23%;
+}
+.index_three_fu1 .eng{
+  color: #fff;
+}
+.index_three_fu1 .index_three_zw{
+  color: #fff;
+  padding-bottom: 22px;
 }
 
-@media (max-width:1024px) {
-    .index_three_fu1 {
-        top: 20%;
-    }
+@media (max-width:1680px) {
+    .index_three_fu1 {bottom: 100px;right: 26%;}
+    .index_three_fu1 .index_three_num{font-size:260px}
 }
 
 .eng {
     font-family: fontDidot;
+    font-size: 26px;
+    line-height: 120%;
+    padding-left: 12%;
 }
-
+.index_four_more_main .eng{padding: 0}
 .index_three_zw {
     display: inline-block;
-    background: url(../images/sj_03.png) no-repeat right center;
-    padding-right: 13px;
+    background: url(../images/sj_03.png) no-repeat right 11px;
+    padding-right: 28px;
+    font-size: 25px;
+    padding-left: 12%;
 }
 
 .index_three_num {
-    font-size: 120px;
-    font-family: arial;
+    font-size: 318px;
+    font-family: DINCondensedFont;
+    line-height: 100%;
+    letter-spacing:-25px;
 }
 
-.ers1 .index_three_fu4 .index_three_num {
-    padding-bottom: 80px;
-}
 
 @media (max-width: 1101px) {
     .ers1 .index_three_fu4 .index_three_num {
@@ -204,20 +234,19 @@
 }
 
 .index_three_fu2 {
-    color: #c0c0be;
+    color: #8e8e8e;
     position: absolute;
     left: 30px;
-    top: 20px;
+    top: 10%;
 }
 
-.index_three_b {
-    background: #5d5c5c;
-}
+
 
 .index_three_fu3 {
     color: #6cb0f3;
     position: absolute;
-    left: 0px;
+     right: 25%;
+    margin-right: 25%;
     top: 40px;
 }
 
@@ -228,10 +257,7 @@
     bottom: 0px;
 }
 
-.index_three_b_bg {
-    background: #5d5c5c;
-    height: 70px;
-}
+
 
 .index_four_tl {
     text-align: center;
@@ -471,9 +497,7 @@
     .index_three_num {
         font-size: 18px;
     }
-    .index_three_b_bg {
-        height: 35px;
-    }
+    
     .index_four_text_ul li {
         border: none;
     }
@@ -1385,17 +1409,14 @@
     background: #b4b3b3;
 }
 
-.ers1 .index_three_tl {
+/*.ers1 .index_three_tl {
     background: url(../images/ers_06.png) no-repeat center;
-}
+}*/
 
 .ers1 .index_three_t {
-    background: #b4b3b3;
+    background: #ebeaea;
 }
-
-.ers1 .index_three_fu1 {
-    color: #ffffff;
-}
+.index_three_fu1 { };
 
 .ers1 .index_three_fu2 {
     color: #646464;
@@ -1421,9 +1442,7 @@
     color: #a6b42e;
 }
 
-.ers1 .index_three_b {
-    background: #cac9c9;
-}
+
 
 .exp1 {
     padding: 74px 0px;
