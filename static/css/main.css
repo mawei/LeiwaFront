@@ -220,7 +220,18 @@
     letter-spacing:-25px;
 }
 
-
+@media (max-width: 1600px) {
+    .ers1 .index_three_num {
+        font-size: 200px;
+        letter-spacing:-15px;
+    }
+    .ers1  .index_three_fu4{
+        bottom:7%;
+    }
+    .ers1 .index_three_zw{
+        font-size: 20px;
+    }
+}
 @media (max-width: 1101px) {
     .ers1 .index_three_fu4 .index_three_num {
         padding-bottom: 40px;
@@ -237,7 +248,7 @@
     color: #8e8e8e;
     position: absolute;
     left: 30px;
-    top: 10%;
+    top: 7%;
 }
 
 
@@ -1414,7 +1425,7 @@
 }*/
 
 .ers1 .index_three_t {
-    background: #ebeaea;
+    background: #B3B3B3;
 }
 .index_three_fu1 { };
 
