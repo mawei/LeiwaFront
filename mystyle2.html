@@ -45,22 +45,22 @@
     </div>
     <div class="my_syle_b myst2">
         <ul class="clearfix mystyle_ul container" style="background: #dedddd;">
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-12 fl-img">
                 <img src="static/images/style1_03.png">
                 <em class="huijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi fr-text">
                 <span class="qushi">趋势一</span>
                 <p>大波浪长卷发</p>
                 <div class="mystyle_zi_text">
                     看似凌乱的中分刘海，发尾的微微卷起很好的修饰了脸型，立马拥有巴掌小脸。
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-12 fl-img">
                 <img src="static/images/style1_03.png">
                 <em class="huijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi fr-text">
                 <span class="qushi">趋势二</span>
                 <p>大波浪长卷发</p>
                 <div class="mystyle_zi_text">
@@ -69,25 +69,25 @@
             </li>
         </ul>
         <ul class="clearfix mystyle_ul container" style="background: #ffffff;">
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi fl-text2">
                 <span class="qushi1">趋势三</span>
                 <p>大波浪长卷发</p>
                 <div class="mystyle_zi_text">
                     看似凌乱的中分刘海，发尾的微微卷起很好的修饰了脸型，立马拥有巴掌小脸。
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-12  fr-img2">
                 <img src="static/images/style1_03.png">
                 <em class="baijiao"></em>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi">
+            <li class="col-md-3 col-sm-3 col-xs-12 mystyle_zi fl-text2">
                 <span class="qushi1">趋势四</span>
                 <p>大波浪长卷发</p>
                 <div class="mystyle_zi_text">
                     看似凌乱的中分刘海，发尾的微微卷起很好的修饰了脸型，立马拥有巴掌小脸。
                 </div>
             </li>
-            <li class="col-md-3 col-sm-3 col-xs-12">
+            <li class="col-md-3 col-sm-3 col-xs-12 fr-img2">
                 <img src="static/images/style1_03.png">
                 <em class="baijiao"></em>
             </li>
@@ -96,7 +96,24 @@
     <!--footer start-->
     <!--#include file="inc/footer.htm" -->
     <!--footer end-->
+    <script>
 
+        var heightLeft= $(".fl-img").height();
+        var heightRight= $(".fr-text").height();
+        var heightLeft2= $(".fl-text2").height();
+        var heightRight2= $(".fr-img2").height();
+
+        if(heightLeft>heightRight){
+            $(".fr-text").height(heightLeft);
+        }else {
+            $(".fl-img").height(heightRight);
+        }
+        if(heightLeft2>heightRight2){
+            $(".fr-img2").height(heightLeft2);
+        }else {
+            $(".fl-text2").height(heightRight2);
+        }
+    </script>
 
 </body>
 
